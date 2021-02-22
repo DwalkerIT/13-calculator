@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <style>
     #calc {
@@ -23,9 +24,23 @@
       grid-column: 2 / 5;
     }
   </style>
-  <script src="main.js"></script>
-  <script src="styles.css"></script>
+  
+
   <body>
+    <script src="main.js"></script>
+    <div class="form-container"> 
+    <input type="text" id="num_one">
+        <input type="text" id="num_two">
+            <div id="btnContainer" class="form-buttons">
+              <button id="add" type="submit">+</button>
+            <button id="subtract" type="submit">-</button>
+            <button id="multiply" type="submit">x</button>
+            <button id="divide" type="submit">/</button>
+            </div>
+            <input type="text" id="answer">
+      </div>
+   
+
     <div class="calculator">
 
         <input type="text" class="calculator-screen" value="0" disabled />
@@ -56,10 +71,7 @@
 </form>
     <form action="" id="calc">
       <input type="number" id="userInput1" />
-      <button id="plus" type="submit">+</button>
-      <button id="subtract" type="submit">-</button>
-      <button id="multiply" type="submit">x</button>
-      <button id="divide" type="submit">/</button>
+      
       <input type="number" id="userInput2" />
       <input type="text" id="result" />
     </form>

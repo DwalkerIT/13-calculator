@@ -1,3 +1,25 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background: #ddd
+  border: 0;
+}
+
+.form-buttons {
+  margin-bottom: 10px;
+}
+
+
+
 /* .calculator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
